@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#f6f2ea">
   <title>ShotBot — Keep the paper. Lose the paperwork.</title>
   <meta name="description" content="ShotBot runs check-in, the signed scorecard photo, and one live results board for sporting clays tournaments. The paper card stays the official record.">
   <link rel="stylesheet" href="styles.css">
@@ -13,284 +12,234 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="#hero"><span class="clay-target" aria-hidden="true"></span>ShotBot</a>
+      <a class="brand" href="#hero">ShotBot</a>
       <nav aria-label="Page sections">
         <ul class="nav-links">
-            <li><a href="#event-day">Event day</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#range">The range</a></li>
-            <li><a href="#audiences">Directors</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <li><a href="#event-day">Event day</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#range">The range</a></li>
+        <li><a href="#audiences">Directors</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main id="main" tabindex="-1">
-    <section class="hero" id="hero" aria-labelledby="hero-title">
-      <div class="wrap hero-grid">
-        <p class="eyebrow">Sporting clays tournaments</p>
-        <h1 id="hero-title"><span class="title-line">Keep the paper.</span>
-            <span class="title-line">Lose the paperwork.</span></h1>
-        <div class="still">
-          <div class="scorecard" aria-hidden="true">
-            <div class="sheet">
-              <div class="clip"></div>
-              <div class="sheet-body">
-                <span class="crop crop-tl"></span>
-                <span class="crop crop-tr"></span>
-                <span class="crop crop-bl"></span>
-                <span class="crop crop-br"></span>
-                <div class="sheet-id">
-                  <p class="sheet-kicker">Paper scorecard</p>
-                  <p class="sheet-name">Sample A</p>
-                  <p class="sheet-meta">Squad 1</p>
-                </div>
-                <div class="sheet-rows">
-                  <p><span>1</span><span class="marks"><i>/</i><i>/</i><i>/</i><i>/</i><i>/</i></span><span>5</span></p>
-                  <p><span>2</span><span class="marks"><i>/</i><i class="miss">O</i><i>/</i><i>/</i><i>/</i></span><span>4</span></p>
-                  <p><span>3</span><span class="marks"><i>/</i><i>/</i><i class="changed">Ø</i><i>/</i><i>/</i></span><span></span></p>
-                  <p><span>4</span><span class="marks"><i>/</i><i>/</i><i>/</i><i class="miss">O</i><i>/</i></span><span>4</span></p>
-                  <p><span>5</span><span class="marks"><i class="miss">O</i><i>/</i><i>/</i><i>/</i><i>/</i></span><span>4</span></p>
-                  <p><span>6</span><span class="marks"><i>/</i><i>/</i><i>/</i><i>/</i><i>/</i></span><span>5</span></p>
-                </div>
-                <div class="sheet-foot">
-                  <span class="sign-label">Sign</span>
-                  <span class="sign-line"></span>
-                  <span class="code-mark"></span>
-                </div>
-              </div>
-            </div>
+    <div class="wrap">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">Sporting clays tournaments</p>
+          <h1 id="hero-title">Keep the paper.<br>
+          Lose the paperwork.</h1>
+          <p class="lede">Check-in prints the scorecard. Registration stays. A shooter can be on the list before they arrive, and desk check-in still prints the card. Staff photograph the signed card, and every mark is read. One live board is a link with no account and the picture on the clubhouse TV. The day runs from a laptop at the range.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#contact">Talk about a shoot</a>
+            <a class="button button-secondary" href="#event-day">See event day</a>
           </div>
-          <figure class="board">
-            <div class="screen">
-              <div class="board-top">
-                <p class="board-title">Overall</p>
-                <p class="live-pill"><span class="live-dot" aria-hidden="true"></span>Live</p>
-              </div>
-              <table>
-                <caption>Illustration. Not a live event. Names are placeholders.</caption>
-                <thead>
-                  <tr>
-                    <th scope="col">Place</th>
-                    <th scope="col">Shooter</th>
-                    <th scope="col">Squad</th>
-                    <th scope="col">Score</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td>1</td><td>Sample A</td><td>Squad 1</td><td class="score">92</td></tr>
-                  <tr><td>T2</td><td>Sample B</td><td>Squad 3</td><td class="score">88</td></tr>
-                  <tr><td>T2</td><td>Sample C</td><td>Squad 4</td><td class="score">88</td></tr>
-                </tbody>
-              </table>
-            </div>
-          </figure>
         </div>
-        <p class="lede">Check-in prints the scorecard. Registration stays. A shooter can be on the list before they arrive, and desk check-in still prints the card. Staff photograph the signed card, and every mark is read. One live board is a link with no account and the picture on the clubhouse TV. The day runs from a laptop at the range.</p>
-        <div class="actions">
-          <a class="button button-primary" href="#contact">Talk about a shoot</a>
-          <a class="button button-secondary" href="#event-day">See event day</a>
-        </div>
-      </div>
-    </section>
+        <figure class="board">
+          <div class="board-top">
+            <p class="board-title">Overall</p>
+            <p class="live-pill"><span class="live-dot" aria-hidden="true"></span>Live</p>
+          </div>
+          <table>
+            <caption>Illustration. Not a live event. Names are placeholders.</caption>
+            <thead>
+              <tr>
+              <th scope="col">Place</th>
+              <th scope="col">Shooter</th>
+              <th scope="col">Squad</th>
+              <th scope="col">Score</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr><td>1</td><td>Sample A</td><td>Squad 1</td><td class="score">92</td></tr>
+            <tr><td>T2</td><td>Sample B</td><td>Squad 3</td><td class="score">88</td></tr>
+            <tr><td>T2</td><td>Sample C</td><td>Squad 4</td><td class="score">88</td></tr>
+            </tbody>
+          </table>
+        </figure>
+      </section>
 
-    <section class="section" id="event-day" aria-labelledby="event-day-title">
-      <div class="wrap">
+      <section class="section" id="event-day" aria-labelledby="event-day-title">
         <p class="eyebrow">Event day</p>
         <h2 id="event-day-title">How the day runs</h2>
         <p class="lede">Four stops, from the desk to close-out. If the computers stop, the signed card is still the record.</p>
         <ol class="steps">
-              <li class="step">
-                <span class="step-number">1</span>
-                <div class="step-copy">
-                  <h3>Desk</h3>
-                  <p>Walk-up check-in prints the scorecard. When the event uses classes, staff pick the class from that event’s list on the same check-in step. The code on the card identifies the shooter, so staff are not reading handwriting to know whose card it is.</p>
-                </div>
-              </li>
-              <li class="step">
-                <span class="step-number">2</span>
-                <div class="step-copy">
-                  <h3>Paper card</h3>
-                  <p>The card is signed, then photographed. Each target mark is read. The total is added from those marks by the software. A changed mark, the Ø, always goes to a person before it counts.</p>
-                </div>
-              </li>
-              <li class="step">
-                <span class="step-number">3</span>
-                <div class="step-copy">
-                  <h3>Live results</h3>
-                  <p>One board for the event. It shows class only when that event turned classes on. Shooters open a link with no account. The clubhouse TV shows the same feed. Each shooter also has a personal results page.</p>
-                </div>
-              </li>
-              <li class="step">
-                <span class="step-number">4</span>
-                <div class="step-copy">
-                  <h3>Close-out</h3>
-                  <p>The director locks the scores. People who opted in at check-in get a results text. Raffle draws look up the ticket. Each seller counts cash against the drawer.</p>
-                </div>
-              </li>
+        <li class="step">
+          <span class="step-number">1</span>
+          <h3>Desk</h3>
+          <p>Walk-up check-in prints the scorecard. When the event uses classes, staff pick the class from that event’s list on the same check-in step. The code on the card identifies the shooter, so staff are not reading handwriting to know whose card it is.</p>
+        </li>
+        <li class="step">
+          <span class="step-number">2</span>
+          <h3>Paper card</h3>
+          <p>The card is signed, then photographed. Each target mark is read. The total is added from those marks by the software. A changed mark, the Ø, always goes to a person before it counts.</p>
+        </li>
+        <li class="step">
+          <span class="step-number">3</span>
+          <h3>Live results</h3>
+          <p>One board for the event. It shows class only when that event turned classes on. Shooters open a link with no account. The clubhouse TV shows the same feed. Each shooter also has a personal results page.</p>
+        </li>
+        <li class="step">
+          <span class="step-number">4</span>
+          <h3>Close-out</h3>
+          <p>The director locks the scores. People who opted in at check-in get a results text. Raffle draws look up the ticket. Each seller counts cash against the drawer.</p>
+        </li>
         </ol>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="features" aria-labelledby="features-title">
-      <div class="wrap">
+      <section class="section" id="features" aria-labelledby="features-title">
         <p class="eyebrow">On the day</p>
         <h2 id="features-title">What the day actually uses</h2>
         <p class="lede">These are the pieces an event runs on today.</p>
         <ul class="card-grid">
-              <li class="card">
-                <h3>Check-in prints the card</h3>
-                <p>Walk-ups are added at the desk. Registering prepares the scorecard for the printer, and a reprint keeps the same card.</p>
-              </li>
-              <li class="card">
-                <h3>Marks, then a total</h3>
-                <p>The photo is read target by target. The score is computed from those cells. Nothing types in a guessed total.</p>
-              </li>
-              <li class="card">
-                <h3>A person sees every change</h3>
-                <p>Cards the reader is unsure about, and any Ø, wait in a review queue with the card photo. A changed mark is not resolved on its own.</p>
-              </li>
-              <li class="card">
-                <h3>One live feed</h3>
-                <p>The public board, the clubhouse TV, and the personal page read the same results. The public page shows name, squad, score, and place, and class only when the event turned it on.</p>
-              </li>
-              <li class="card">
-                <h3>One live board, two doors</h3>
-                <p>Shooters watch the same results from a link with no account, or from the viewer app. A text goes out only after the director closes the event, and only to numbers that opted in.</p>
-              </li>
-              <li class="card">
-                <h3>Raffle, recorded</h3>
-                <p>Rolls are registered before tickets are sold. A sale records a serial range. The draw looks up who bought that serial.</p>
-              </li>
-              <li class="card">
-                <h3>Cash the same day</h3>
-                <p>Sales sit on a seller session with an opening float. At close, counted cash is compared with what the drawer should hold.</p>
-              </li>
-              <li class="card">
-                <h3>Awards you can print</h3>
-                <p>Places come from the scores. A tie is marked. The director records who takes the place, with a note, and can print the sheet.</p>
-              </li>
-              <li class="card">
-                <h3>Rules stay on the event</h3>
-                <p>A charity team shoot and a club shoot with classes are both setups. Classes, categories, and how a team total is added are settings, switched per event.</p>
-              </li>
-              <li class="card">
-                <h3>Files to take home</h3>
-                <p>Results, roster, cell marks, and sales can be exported. Filing scores is optional, per club.</p>
-              </li>
+        <li class="card">
+          <h3>Check-in prints the card</h3>
+          <p>Walk-ups are added at the desk. Registering prepares the scorecard for the printer, and a reprint keeps the same card.</p>
+        </li>
+        <li class="card">
+          <h3>Marks, then a total</h3>
+          <p>The photo is read target by target. The score is computed from those cells. Nothing types in a guessed total.</p>
+        </li>
+        <li class="card">
+          <h3>A person sees every change</h3>
+          <p>Cards the reader is unsure about, and any Ø, wait in a review queue with the card photo. A changed mark is not resolved on its own.</p>
+        </li>
+        <li class="card">
+          <h3>One live feed</h3>
+          <p>The public board, the clubhouse TV, and the personal page read the same results. The public page shows name, squad, score, and place, and class only when the event turned it on.</p>
+        </li>
+        <li class="card">
+          <h3>One live board, two doors</h3>
+          <p>Shooters watch the same results from a link with no account, or from the viewer app. A text goes out only after the director closes the event, and only to numbers that opted in.</p>
+        </li>
+        <li class="card">
+          <h3>Raffle, recorded</h3>
+          <p>Rolls are registered before tickets are sold. A sale records a serial range. The draw looks up who bought that serial.</p>
+        </li>
+        <li class="card">
+          <h3>Cash the same day</h3>
+          <p>Sales sit on a seller session with an opening float. At close, counted cash is compared with what the drawer should hold.</p>
+        </li>
+        <li class="card">
+          <h3>Awards you can print</h3>
+          <p>Places come from the scores. A tie is marked. The director records who takes the place, with a note, and can print the sheet.</p>
+        </li>
+        <li class="card">
+          <h3>Rules stay on the event</h3>
+          <p>A charity team shoot and a club shoot with classes are both setups. Classes, categories, and how a team total is added are settings, switched per event.</p>
+        </li>
+        <li class="card">
+          <h3>Files to take home</h3>
+          <p>Results, roster, cell marks, and sales can be exported. Filing scores is optional, per club.</p>
+        </li>
         </ul>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <section class="range-band" id="range" aria-labelledby="range-title">
       <div class="wrap">
         <p class="eyebrow">Reliability</p>
         <h2 id="range-title">Built for the range</h2>
         <div class="range-grid">
-            <article class="range-card">
-              <h3>A dead phone does not stop the day</h3>
-              <p>The event can run on an event-hub laptop at the clubhouse, with or without an outside line. Check-in and scoring stay on that laptop. A phone that dies, or a photo taken with no signal, does not stop the next shooter. Card photos wait on the device and upload once, with no duplicate, when the signal returns. A card that cannot be photographed can be entered mark by mark.</p>
-            </article>
-            <article class="range-card">
-              <h3>Paper is the official record</h3>
-              <p>ShotBot transcribes the signed card. It does not replace it. If the system stops mid-event, the tournament finishes on paper. Every posted score keeps the card, the photo, and who reviewed it.</p>
-            </article>
+        <article class="range-card">
+          <h3>A dead phone does not stop the day</h3>
+          <p>The event can run on an event-hub laptop at the clubhouse, with or without an outside line. Check-in and scoring stay on that laptop. A phone that dies, or a photo taken with no signal, does not stop the next shooter. Card photos wait on the device and upload once, with no duplicate, when the signal returns. A card that cannot be photographed can be entered mark by mark.</p>
+        </article>
+        <article class="range-card">
+          <h3>Paper is the official record</h3>
+          <p>ShotBot transcribes the signed card. It does not replace it. If the system stops mid-event, the tournament finishes on paper. Every posted score keeps the card, the photo, and who reviewed it.</p>
+        </article>
         </div>
       </div>
-      <div class="horizon" aria-hidden="true"></div>
     </section>
 
-    <section class="field-band" id="audiences" aria-labelledby="audiences-title">
-      <div class="wrap">
+    <div class="wrap">
+      <section class="section" id="audiences" aria-labelledby="audiences-title">
         <p class="eyebrow">Who it is for</p>
         <h2 id="audiences-title">Directors and clubs</h2>
         <div class="audience-grid">
-            <article class="audience-card">
-              <h3>For directors</h3>
-              <ul>
-                <li>Set the event up as a charity team shoot, or as a club shoot with classes.</li>
-                <li>Walk-ups check in at the desk and leave with a printed card.</li>
-                <li>Awards and tie notes are recorded, then printed.</li>
-                <li>Cash variance shows when the seller closes the drawer.</li>
-                <li>Results stay on the public board, and a text goes to people who asked for one.</li>
-              </ul>
-            </article>
-            <article class="audience-card">
-              <h3>For clubs</h3>
-              <ul>
-                <li>The venue and the course are saved once and reused on the next shoot.</li>
-                <li>The day can run from a laptop on site when the range has no outside line.</li>
-                <li>Classes and categories stay off until that event turns them on.</li>
-                <li>Shooters watch the live board from a link with no account, or from the viewer app. Staff still run the desk, the photos, and the close.</li>
-                <li>Score filing is optional. A club that does not file skips that export.</li>
-              </ul>
-            </article>
+        <article class="audience-card card">
+          <h3>For directors</h3>
+          <ul>
+            <li>Set the event up as a charity team shoot, or as a club shoot with classes.</li>
+            <li>Walk-ups check in at the desk and leave with a printed card.</li>
+            <li>Awards and tie notes are recorded, then printed.</li>
+            <li>Cash variance shows when the seller closes the drawer.</li>
+            <li>Results stay on the public board, and a text goes to people who asked for one.</li>
+          </ul>
+        </article>
+        <article class="audience-card card">
+          <h3>For clubs</h3>
+          <ul>
+            <li>The venue and the course are saved once and reused on the next shoot.</li>
+            <li>The day can run from a laptop on site when the range has no outside line.</li>
+            <li>Classes and categories stay off until that event turns them on.</li>
+            <li>Shooters watch the live board from a link with no account, or from the viewer app. Staff still run the desk, the photos, and the close.</li>
+            <li>Score filing is optional. A club that does not file skips that export.</li>
+          </ul>
+        </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="faq" aria-labelledby="faq-title">
-      <div class="wrap">
+      <section class="section" id="faq" aria-labelledby="faq-title">
         <p class="eyebrow">FAQ</p>
         <h2 id="faq-title">Questions from the desk</h2>
         <div class="faq-list">
-            <details>
-              <summary>Do shooters install an app?</summary>
-              <p class="faq-answer">They can. The app is a live results viewer only. The same board is also a link with no account.</p>
-            </details>
-            <details>
-              <summary>What if a phone dies, or the range has no signal?</summary>
-              <p class="faq-answer">The event-hub laptop keeps check-in and scoring going. Card photos taken with no signal wait on that phone and upload once when it reconnects. The signed paper cards are still in the box if you need them.</p>
-            </details>
-            <details>
-              <summary>Is the paper card still official?</summary>
-              <p class="faq-answer">Yes. The signed card is the record. ShotBot reads it. If the computers stop, you finish the tournament on paper.</p>
-            </details>
-            <details>
-              <summary>Who decides a changed score?</summary>
-              <p class="faq-answer">A person. Any Ø on a card, whether a scorekeeper changed a mark or a protest did, goes to review. The reader does not pick a winner for that cell.</p>
-            </details>
-            <details>
-              <summary>When do shooters see results?</summary>
-              <p class="faq-answer">The live board is up during the event, on a link and on the clubhouse TV. Personal pages use the same scores. Texts go out at close, only to opted-in numbers.</p>
-            </details>
-            <details>
-              <summary>How do raffle tickets and cash get reconciled?</summary>
-              <p class="faq-answer">Each roll is registered, and each sale records a serial range on that roll. At the draw, the serial looks up the buyer. At close, counted cash is compared with the seller session.</p>
-            </details>
-            <details>
-              <summary>Do we have to file scores?</summary>
-              <p class="faq-answer">No. NSCA filing is optional, per club. A club that files can export a results file. A club that does not file skips it.</p>
-            </details>
-            <details>
-              <summary>What does it cost?</summary>
-              <p class="faq-answer">Pricing: coming soon.</p>
-            </details>
+        <details>
+          <summary>Do shooters install an app?</summary>
+          <p class="faq-answer">They can. The app is a live results viewer only. The same board is also a link with no account.</p>
+        </details>
+        <details>
+          <summary>What if a phone dies, or the range has no signal?</summary>
+          <p class="faq-answer">The event-hub laptop keeps check-in and scoring going. Card photos taken with no signal wait on that phone and upload once when it reconnects. The signed paper cards are still in the box if you need them.</p>
+        </details>
+        <details>
+          <summary>Is the paper card still official?</summary>
+          <p class="faq-answer">Yes. The signed card is the record. ShotBot reads it. If the computers stop, you finish the tournament on paper.</p>
+        </details>
+        <details>
+          <summary>Who decides a changed score?</summary>
+          <p class="faq-answer">A person. Any Ø on a card, whether a scorekeeper changed a mark or a protest did, goes to review. The reader does not pick a winner for that cell.</p>
+        </details>
+        <details>
+          <summary>When do shooters see results?</summary>
+          <p class="faq-answer">The live board is up during the event, on a link and on the clubhouse TV. Personal pages use the same scores. Texts go out at close, only to opted-in numbers.</p>
+        </details>
+        <details>
+          <summary>How do raffle tickets and cash get reconciled?</summary>
+          <p class="faq-answer">Each roll is registered, and each sale records a serial range on that roll. At the draw, the serial looks up the buyer. At close, counted cash is compared with the seller session.</p>
+        </details>
+        <details>
+          <summary>Do we have to file scores?</summary>
+          <p class="faq-answer">No. NSCA filing is optional, per club. A club that files can export a results file. A club that does not file skips it.</p>
+        </details>
+        <details>
+          <summary>What does it cost?</summary>
+          <p class="faq-answer">Pricing: coming soon.</p>
+        </details>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="wrap">
+      <section class="section" id="contact" aria-labelledby="contact-title">
         <p class="eyebrow">Contact</p>
         <h2 id="contact-title">Tell us about your next shoot</h2>
         <p class="lede">Directors and clubs can leave an interest note here once this placeholder is connected.</p>
-        <div class="slip">
-          <p class="todo" role="note">TODO: This interest form is not connected. It does not send email, save a message, or load analytics.</p>
-          <p class="planned-label">Planned fields. Nothing on this page is submitted.</p>
-          <ul class="planned-fields">
-              <li>Name</li>
-              <li>Club or event</li>
-              <li>Email</li>
-              <li>What you want to run</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+        <p class="todo" role="note">TODO: This interest form is not connected. It does not send email, save a message, or load analytics.</p>
+        <p class="planned-label">Planned fields. Nothing on this page is submitted.</p>
+        <ul class="planned-fields">
+        <li>Name</li>
+        <li>Club or event</li>
+        <li>Email</li>
+        <li>What you want to run</li>
+        </ul>
+      </section>
+    </div>
   </main>
   <footer class="site-footer">
-    <div class="wrap footer-inner">
+    <div class="wrap">
       <p class="pricing">Pricing: coming soon.</p>
       <p class="record">The signed paper card is the official record.</p>
     </div>
